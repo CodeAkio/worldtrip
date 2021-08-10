@@ -3,6 +3,12 @@ import { AppProps } from 'next/app'
 
 import { theme } from '../styles/theme'
 
+import 'swiper/swiper.scss'
+import 'swiper/components/navigation/navigation.scss'
+import 'swiper/components/pagination/pagination.scss'
+
+import '../styles/slider.scss'
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={theme}>
