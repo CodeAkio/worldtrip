@@ -3,7 +3,7 @@ import { Image } from "@chakra-ui/react";
 export function Logo() {
   return (
     <Image
-      src="/Logo.svg"
+      src="/img/logo.svg"
       alt="world trip"
       justifySelf="center"
       gridColumn="2"
